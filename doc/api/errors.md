@@ -1295,18 +1295,20 @@ added: v16.7.0
 
 When using [`fs.cp()`][], `src` or `dest` pointed to an invalid path.
 
-<a id="ERR_FS_CP_FIFO_PIPE"></a>
+<a id="ERR_HTTP_BODY_NOT_ALLOWED"></a>
 
 ### `ERR_HTTP_BODY_NOT_ALLOWED`
 
 An error is thrown when writing to an HTTP response which does not allow
-contents. <a id="ERR_HTTP_BODY_NOT_ALLOWED"></a>
+contents.
+
+<a id="ERR_HTTP_CONTENT_LENGTH_MISMATCH"></a>
 
 ### `ERR_HTTP_CONTENT_LENGTH_MISMATCH`
 
 Response body size doesn't match with the specified content-length header value.
 
-<a id="ERR_HTTP_CONTENT_LENGTH_MISMATCH"></a>
+<a id="ERR_FS_CP_FIFO_PIPE"></a>
 
 ### `ERR_FS_CP_FIFO_PIPE`
 
@@ -3643,6 +3645,42 @@ removed: v10.0.0
 -->
 
 The `node:repl` module was unable to parse data from the REPL history file.
+
+<a id="ERR_QUIC_CONNECTION_FAILED"></a>
+
+### `ERR_QUIC_CONNECTION_FAILED`
+
+<!-- YAML
+added: REPLACEME
+-->
+
+> Stability: 1 - Experimental
+
+Establishing a QUIC connection failed.
+
+<a id="ERR_QUIC_ENDPOINT_CLOSED"></a>
+
+### `ERR_QUIC_ENDPOINT_CLOSED`
+
+<!-- YAML
+added: REPLACEME
+-->
+
+> Stability: 1 - Experimental
+
+A QUIC Endpoint closed with an error.
+
+<a id="ERR_QUIC_OPEN_STREAM_FAILED"></a>
+
+### `ERR_QUIC_OPEN_STREAM_FAILED`
+
+<!-- YAML
+added: REPLACEME
+-->
+
+> Stability: 1 - Experimental
+
+Opening a QUIC stream failed.
 
 <a id="ERR_SOCKET_CANNOT_SEND"></a>
 
